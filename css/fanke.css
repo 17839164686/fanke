@@ -1,0 +1,848 @@
+@charset "utf-8";
+.vanclHead{
+    width: 100%;
+    height: auto;
+}
+.headerTopAreaBox {
+    width: 100%;
+    height: 32px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    color: #808080;
+}
+.headerTopArea {
+    width: 100%;
+    height: 31px;
+    background: #f7f7f7;
+}
+.full .headerTopArea .headTop{
+    width: 1200px;
+}
+.headerTopArea .headTop{
+  
+    line-height: 32px;
+    margin: 0 auto;
+    background: #f7f7f7;
+}
+.headerTopArea .headerTopRight{
+    float: right;
+    position: relative;
+    z-index: 9000;
+}
+.headerTopArea #vanclCustomer{
+    width: 70px;
+    height: 18px;
+    line-height: 18px;
+    margin: 7px 0px 0px 0px;
+    float: left;
+    display: inline;
+    position: relative;
+    z-index: 1000;
+    cursor: pointer;
+}
+.headerTopArea .mapDropTitle {
+    background-position: 0px 0px;
+    display: block;
+}
+.headerTopArea .mapDropTitle, .headerTopArea .hover .mapDropTitle {
+    background: url(../images/notice.png) no-repeat scroll 0px 0px;
+    width: 55px;
+    padding-left: 26px;
+    text-align: left;
+}
+.headerTopAreaBox a {
+    color: #808080;
+}
+a:link, a:visited {
+    color: #333;
+    text-decoration: none;
+}
+a:-webkit-any-link{
+    cursor: pointer;
+}
+.headerTopArea .payattention{
+    float: right;
+    width: 50px;
+    height: 29px;
+}
+.vweixinbox{
+    float: left;
+    position: relative;
+    width: 30px;
+    height: 25px;
+}
+.vweixinbox .vweixin{
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+    display: inline;
+    cursor: pointer;
+    width: 20px;
+    height: 21px;
+}
+.vweixinbox .vweixinTip {
+    position: absolute;
+    width: 148px;
+    height: 169px;
+    right: 0px;
+    top: 30px;
+    border: 1px solid #e5e5e5;
+    background: url(../images/weixin.png) no-repeat;
+    overflow: hidden;
+    display: none;
+    cursor: pointer;
+    z-index: 10000;
+}
+strong, b {
+    font-weight: bold;
+}
+.payattention a.vanclweibo, .vweixinbox .vweixin {
+    width: 20px;
+    height: 25px;
+}
+
+.payattention em, .payattention a.vanclweibo, .payattention .vweixin {
+    float: left;
+    margin-top: 4px;
+}
+.full .headerTopArea .headerTopLeft{
+    height: 32px;
+    width: 303px;
+    float: right;
+}
+.headerTopArea .loginArea{
+    width: 228px;
+    height: 32px;
+    float: left;
+  
+}
+.headerTopArea .loginArea .top{
+    display: block;
+    width: 150px;
+    height: 32px;
+}
+.headerTopArea .loginArea span{
+    display: inline-block;
+    width: 78px;
+    height: 13px;
+    float: left;
+    margin-top: 9px;
+    color: #808080;
+
+}
+.headerTopArea .loginArea a:link, .headerTopArea .loginArea a:visited, .headerTopArea ul li a:hover {
+    color: #808080;
+}
+.headerTopLeft ul li{
+
+    float: left;
+    margin: 3px 5px 3px 5px;
+    line-height: 32px;
+    color: #808080;
+}
+.headerTopLeft ul li a{
+    color: #808080;
+    
+}
+.headerTopLeft ul #login{
+    border-right: 1px solid #808080;
+    padding-right: 8px;
+}
+.headerTopLeft ul #mymenu{
+    padding-left: 13px;
+}
+.full .vanclLogoSearch{
+    width: 1200px;
+}
+.vanclLogoSearch{
+    height: 62px;
+    margin: 20px auto 25px;
+}
+.vanclSearch{
+    width: 438px;
+    padding-top:8px;
+}
+.fr{
+    float: right;
+}
+.searchTab{
+    height: 29px;
+
+    
+}
+.fl{
+    float:left;  
+}
+
+
+.searchTab .Enter{
+    width: 249px;
+    height: 27px;
+    padding: 0px 5px;
+    line-height: 27px;
+    border:1px solid #c9caca;
+  
+}
+.searchTab .btn {
+    width: 49px;
+    height: 29px;
+    border: none;
+    cursor: pointer;
+    background: url(../images/vanclsprite.png) no-repeat scroll -100px 0px;
+}
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+user agent stylesheet
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+s, strike, del {
+    text-decoration: line-through;
+}
+.searchTab .active {
+    width: 105px;
+    height: 27px;
+    border: 1px solid #c1383e;
+    background: url(../images/vanclsprite.png) no-repeat scroll -154px 0px;
+    position: relative;
+    z-index: 10;
+    float: right;
+
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.searchTab .active a.cartab:link, .searchTab .active a.cartab:visited, .searchTab .active a.cartab:hover, .searchTab .active a.cartab:active {
+    color: #ffffff;
+}
+.searchTab .active a.cartab {
+    display: block;
+    padding-left: 29px;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+   
+   
+}
+#shoppingCarNone{
+    margin-left: 29px;
+}
+.BuycarTab {
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    border: 1px solid #b81c22;
+    position: absolute;
+    right: -1px;
+    top: 86px;
+    _right: -2px;
+    background: #ffffff;
+    display: none;
+    
+}
+.hotWord {
+    width: 440px;
+    padding-top: 5px;
+    line-height: 18px;
+    color: #727171;
+    padding-left: 15px;
+}
+.full .navlist{
+    width: 1000px;
+}
+.navlist{
+    height: 22px!important;
+    margin: 30px auto!important;
+    padding-left: 200px!important;
+    position: relative!important;
+}
+.navlist ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.full .navlist ul li.vancllogo_Con {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0px;
+    background: none;
+    width: 100%;
+}
+.full .navlist ul li{
+    float: left;
+    width: 96px;
+    padding: 0px 0px 10px;
+    text-align: center;
+    position: relative;
+    line-height: 22px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    z-index: 220;
+    display: list-item;
+}
+.full .navlist ul li a:link, .navlist ul li a:visited, .navlist ul li a:active {
+    color: #727171;
+}
+.full .navlist ul li.vancllogo_Con a {
+    display: block;
+    width: 185px;
+    height: 46px;
+    background: url(../images/logo18546.png) no-repeat scroll;
+}
+.NavLine {
+    display: block;
+    height: 16px;
+    width: 1px;
+    border-right: solid 1px #888;
+    position: absolute;
+    right: 1px;
+    top: 5px;
+    overflow: hidden;
+}
+.full .subNav {
+    width: 99px;
+    background: #fff;
+    position: absolute;
+    left: -2px;
+    top: 30px;
+}
+.full .subNav span {
+    display: block;
+    width: 100%;
+    height: 5px;
+    border-top: 5px solid #B81C22;
+}
+.full .subNav ul {
+    border: 1px solid #efefef;
+    border-top: 0px;
+    padding: 10px 0px;
+}
+.full .subNav ul li {
+    width: 96px;
+    font-family: "Microsoft YaHei";
+    position: relative;
+    text-align: center;
+    line-height: 35px;
+    background: none;
+    padding: 0px;
+    float: none;
+    font-size: 16px;
+    z-index: 220;
+
+}
+.clear:after {
+    content: "";
+    height: 0px;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.full .vanclCon{
+    width: 1200px;
+}
+.vanclCon{
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.full .vanclFocusAd{
+    width: 1200px;
+}
+.vanclFocus {
+    width: 1200px;
+    height: 535px;
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+}
+.vanclFocus .rslides{
+    height: 535px;
+}
+.vanclFocus .rslides li{
+    width: 100%;
+    height: 535px;
+    position: absolute;
+    overflow: hidden;
+}
+.vanclFocus .rslides li img{
+    width: 100%;
+    height: 100%;
+}
+.vanclFocus .rslides li.hd-active{
+    z-index: 2;
+}
+
+.vanclFocus .rslides_tabs{
+    height: 12px;
+    position: absolute;
+    right: 46%;
+    top: 500px;
+    z-index: 10;
+    overflow: hidden;
+}
+a:link, a:visited {
+    color: #333;
+    text-decoration: none;
+}
+.vanclFocus .prev, .vanclFocus .next {
+	cursor: pointer;
+	height: 60px;
+	width: 28px;
+	z-index: 10;
+	text-indent: -9999px;
+	display: inline-block;
+}
+.vanclFocus .prev {
+	background: url(../images/focus_lr0918.png) no-repeat scroll 0px 0px;
+	left: 10px;
+	position: absolute;
+	top: 230px;
+}
+.vanclFocus .prev:hover {
+	background: url(../images/focus_lr0918.png) no-repeat scroll 0px -61px;
+}
+.vanclFocus .next {
+	background: url(../images/focus_lr0918.png) no-repeat scroll -52px 0px;
+	position: absolute;
+	right: 10px;
+	top: 230px;
+}
+.vanclFocus .next:hover {
+	background: url(../images/focus_lr0918.png) no-repeat scroll -52px -61px;
+}
+.vanclFocus .rslides_tabs span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    margin-right: 8px;
+    cursor: pointer;
+    background: #dddddd;
+    border-radius: 12px;
+}
+.vanclFocus .rslides_tabs a {
+    display: block;
+    width: 12px;
+    height: 12px;
+    line-height: 0px;
+    overflow: hidden;
+    font-size: 0;
+}
+.vanclFocus .rslides_tabs span.hd-active {
+    background: #a10000;
+}
+
+.vanclFocus ul li {
+    display: block;
+    width: 1200px;
+    height: 535px;
+    
+}
+.bank20{
+    display: block;
+    width: 100%;
+    height: 20px;
+    line-height: 0px;
+    font-size: 0px;
+    clear: both;
+    overflow:hidden;
+}
+.getMoney{
+    margin: 20px 0px;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: table;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+}
+td{
+    display: table-cell;
+    vertical-align: inherit;
+   
+}
+.new_miaosha_area{
+    margin:0 auto;
+    width: 1200px;
+}
+.new_miaosha_area h2 {
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+    color: #9a9a9a;
+    font-size: 18px;
+}
+span#seckill_2017_timecounting {
+    color: #a10000;
+    margin-left: 20px;
+    float: right;
+    padding-right: 30px;
+}
+
+.new_miaosha_title {
+    background: url(../images/miaosha-bg1.jpg) no-repeat scroll 0px 0px;
+}
+span#seckill_2017_timecounting em.wordBox {
+    color: #ffffff;
+    padding-right: 25px;
+}
+span#seckill_2017_timecounting em {
+    padding-left: 42px;
+}
+em, strong, th {
+    font-style: normal;
+    font-weight: normal;
+}
+#seckill_2017_container {
+    width: 1200px;
+    color: #474747;
+    font-weight: bold;
+    margin: 0 auto;
+    font-family: "Microsoft YaHei";
+}
+#seckill_2017_container ul {
+    overflow: hidden;
+    margin: 10px 0 0 0;
+    padding: 0;
+    width: 1210px;
+}
+#seckill_2017_container ul li {
+    float: left;
+    width: 232px;
+    margin-right: 10px;
+    list-style: none;
+}
+#seckill_2017_container ul li img {
+    display: block;
+    width: 232px;
+    height: 232px;
+}
+#seckill_2017_container ul li .new-miaosha-productname {
+    font-size: 16px;
+    margin-top: 10px;
+    height: 45px;
+    font-weight: normal;
+}
+#seckill_2017_container ul li .new-miaosha-price {
+    position: relative;
+}
+#seckill_2017_container ul li .new-miaosha-price .new-miaosha-oldprice {
+    display: block;
+    color: #d3d3d3;
+    font-size: 14px;
+    text-decoration: line-through;
+    font-weight: normal;
+}
+#seckill_2017_container ul li .new-miaosha-price .new-miaosha-saleprice {
+    display: block;
+    color: #bb2b34;
+    font-size: 16px;
+}
+#seckill_2017_container ul li .new-miaosha-price .new-miaosha-afterdeposit {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.blank0 {
+    display: block;
+    width: 100%;
+    height: 0px;
+    line-height: 0px;
+    font-size: 0px;
+    clear: both;
+    overflow: hidden;
+}
+.proAreabox clearFix{
+    margin: 0 auto;
+  
+}
+.shangzhuanglist {
+
+	overflow: hidden;
+}
+.piclist{
+    width: 1200px;
+    margin: 0 auto;
+}
+.piclist h2{
+    text-align: center;
+    line-height: 50px;
+    margin: 30px 0px;
+    font-family: "Microsoft YaHei";
+    color: #9a9a9a;
+    font-size: 18px;
+}
+.shangzhuanglist ul li {
+	float: left;
+	margin-right: 17px;
+	display: inline;
+}
+.shangzhuanglist ul li.pic_one {
+	width: 590px;
+}
+.shangzhuanglist ul li.pic_two {
+	width: 290px;
+}
+.shangzhuanglist ul li.pic_three {
+	width: 286px;
+}
+.shangzhuanglist ul li div {
+	margin-bottom: 16px;
+}
+.shangzhuanglist ul li h3, .kuzhuanglist ul li h3 {
+	height: 28px;
+	padding: 20px 12px;
+	line-height: 28px;
+	border: 1px solid #e8e7ec;
+	border-top: 0px;
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+}
+.shangzhuanglist ul li h3 span, .kuzhuanglist ul li h3 span {
+	float: right;
+	color: #a10000;
+	font-family: Arial;
+	line-height: 24px;
+	font-size: 14px;
+}
+.shangzhuanglist ul li h3 span em, .kuzhuanglist ul li h3 span em {
+	font-size: 16px;
+	padding-left: 10px;
+}
+.kuzhuanglist {
+	overflow: hidden;
+}
+.kuzhuanglist ul li {
+	width: 285px;
+	height: 508px;
+	float: left;
+	display: inline;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.otherlist {
+	overflow: hidden;
+*margin-bottom:28px;
+}
+.otherlist ul li {
+	float: left;
+	width: 385px;
+	height: 275px;
+	display: inline;
+	margin: 0px 22px 28px 0px;
+}
+.shangzhuanglist_top {
+    margin-bottom:-30px;
+}
+.full .vanclFoot {
+    overflow: hidden;
+    width: 1118px;
+    height: 282px;
+    margin: 0px auto;
+    padding: 0px 40px 0px;
+    border: 1px solid #e0e0e1;
+    font-family: "Microsoft YaHei";
+    margin-bottom: 25px;
+}
+.full .vanclCustomer {
+    margin: 33px 0px 23px;
+    overflow: hidden;
+}
+.full .vanclCustomer ul li {
+    width: 370px;
+    height: 138px;
+    border-right: 1px solid #e0e0e1;
+    margin-right: 0px;
+}
+
+.full .vanclFoot ul li {
+    float: left;
+}
+.full .vanclCustomer ul li p {
+    text-align: center;
+    font-size: 14px;
+    color: #727171;
+    line-height: 26px;
+}
+.full .vanclCustomer ul li.twocode p img {
+    margin-bottom: 10px;
+}
+.full .vanclCustomer ul li p img {
+    display: block;
+    margin: 0px auto;
+}
+.full .vanclOthers {
+    height: 26px;
+    padding: 17px 0px 14px;
+    background: #f8f8f8;
+    width: 100%;
+    margin: 0;
+}
+.full .vanclOthers ul li {
+    padding: 0px 65px;
+    line-height: 26px;
+    border-right: 1px solid #dadadb;
+    width: auto;
+    text-align: center;
+    margin-right: 0px;
+}
+.full .vanclOthers ul li.none {
+    border-right: none;
+}
+.full .vanclCustomer ul li p.onlineCustomer {
+    margin: 15px auto 30px;
+}
+.full .vanclCustomer ul li p.onlineTime {
+    margin: 0px auto;
+    width: 156px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    background: #b81c22;
+    color:#fff;
+}
+.full .vanclCustomer ul li p.seven {
+    margin: 20px 0px;
+}
+.full .vanclCustomer ul li.twocode {
+    border-right: none;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.full .vanclCustomer ul li.twocode p em {
+    color: #a10000;
+}
+.footBottom {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    border-top: 1px solid #3e3a39;
+}
+.footBottomTab {
+    width: 1200px;
+    height: auto;
+    margin: 10px auto;
+}
+.footBottomTab p {
+    text-align: center;
+    line-height: 25px;
+    color: #3e3a39;
+    font-family: "Microsoft YaHei";
+}
+.blank20 {
+    display: block;
+    width: 100%;
+    height: 20px;
+    line-height: 0px;
+    font-size: 0px;
+    clear: both;
+    overflow: hidden;
+}
+.subFooter {
+    width: 980px;
+    margin: 0px auto 25px;
+    text-align: center;
+}
+.subFooter .redLogo:link, .subFooter .redLogo:visited, .subFooter .redLogo:hover {
+    background: url(../images/spritesbgtop.png) no-repeat scroll 0 -581px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 113px;
+}
+.subFooter a, .subFooter span {
+    margin: 0 10px;
+}
+.subFooter .costumeOrg {
+    background: url(../images/spritesbgtop.png) no-repeat scroll 0 -629px transparent;
+    display: inline-block;
+    height: 45px;
+    width: 156px;
+}
+.subFooter .wsjyBzzx:link, .subFooter .wsjyBzzx:visited, .subFooter .wsjyBzzx:hover {
+    background: url(../images/spritesbgtop.png) no-repeat scroll 0 -675px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 96px;
+}
+.subFooter .vanclMsg:link, .subFooter .vanclMsg:visited, .subFooter .vanclMsg:hover {
+    background: url(../images/spritesbgtop.png) no-repeat scroll -97px -675px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 101px;
+}
+#footerArea .vanclqingNian:link, #footerArea .vanclqingNian:visited, #footerArea .vanclqingNian:hover {
+    background: url(../images/spritesbgtop.png) no-repeat scroll -202px -675px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

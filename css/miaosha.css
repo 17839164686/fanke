@@ -1,0 +1,206 @@
+
+.ztAutoTemplate{
+    width: 1200px;
+    margin: 0 auto;
+}
+.miaosha_title{
+    width: 1200px;
+    height: 95px;
+    background: url(../images/topbg.jpg) no-repeat scroll center 0px;
+}
+.miaosha_top{
+    width: 1200px;
+    margin-bottom: 25px;
+}
+.miaosha_top ul li{
+    float: left;
+    width: 230px;
+    height: 102px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 5px;
+}
+.miaosha_top ul li:hover{
+    background: #b81c22;
+    color: #fff;
+}
+
+ .miaosha_top ul li span {
+         white-space: nowrap;
+         float: left;
+         }
+ .miaosha_top ul li span.time{
+     padding-right: 4px;
+     font-family: "Microsoft YaHei";
+     font-size: 35px;
+     line-height: 102px;
+     margin-left: 10px;
+ }
+ .miaosha_top ul li span.time_num{
+     padding-top: 20px;
+ }
+ .miaosha_top ul li span.time_num em{
+     line-height: 30px;
+     font-size: 14px;
+ }
+ .miaosha_top ul li span em{
+     display: block;
+ }
+ .miaosha_top ul li:after{
+     content:"";
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     z-index: 999;
+     display: block;
+     opacity: 0;
+ }
+
+ .com_disnone {
+               display: none;
+             }
+ .miaosha_product{
+     width: 1200px;
+     height: auto;
+     overflow: hidden;
+     margin-top: 25px;
+     display: none;
+ }
+ .miaosha_product:first-child{
+     display: block;
+ }
+ .miaosha_product ul li {
+             width: 234px;
+            height: 480px;
+            margin-right: 6px;
+            margin-bottom: 55px;
+            overflow: hidden;
+            float: left;  
+             cursor: pointer;
+     }
+.miaosha_product ul li .big_img{
+    width: 100%;
+    height: 346px;
+}
+.miaosha_product ul li h3  {
+     padding-top: 8px;
+     line-height: 20px;
+     color: #333333;
+     font-size: 13px;
+                    
+ }
+ .miaosha_product h3{
+    height: 30px;
+
+ }
+ .miaosha_product ul li p{
+     overflow: hidden;
+ }
+ .miaosha_product ul li p.Money span.ms_tomorrow {
+    background: url(../images/mstbg.png) no-repeat scroll -177px 0px;
+}
+.miaosha_product ul li p.Money span.ms_start {
+    float: right;
+    display: inline-block;
+    width: 89px;
+    height: 32px;
+    background: url(../images/mstbg.png) no-repeat scroll 0px 0px;
+    cursor: pointer;
+}
+.miaosha_product ul li p.Money span {
+    font-size: 24px;
+    color: #b81c22;
+    font-family: Arial;
+}
+.miaosha_product ul li p.Money span.nowPrice{
+    display: inline-block;
+    padding-top: 20px;
+}
+ .miaosha_product ul li p.buyNum span.numline{
+    background: none !important;
+    border: solid 1px #feaead;
+      overflow: hidden;
+      margin: 0px 3px;
+      display: inline-block;
+      width: 105px;
+      height: 12px;
+}
+.rig{
+    float: right;
+}
+ .newout {
+         background: none ;
+         color: #444444;
+ }
+ .newhover  {
+     background: #b81c22 !important;
+     color: #fff !important;
+ }
+ .miaosha_product ul li p.Money span.nowPrice em.moneyBtn {
+     font-size: 16px;
+     padding-top: 4px;
+}
+.miaosha_product ul li p.Money span em{
+    float: left;
+}
+.miaosha_product ul li p.Money span em.chongzhi {
+    font-size: 12px;
+}
+.miaosha_product ul li p.buyNum {
+    color: #c8c8c8;
+}
+.miaosha_product ul li p.buyNum span.price {
+    text-decoration: line-through;
+}
+.searchBoxWrapper{
+    width: 980px;
+    margin: 0 auto;
+}
+.searchBox0613{
+    text-align: center;
+}
+.searchdiv{
+    text-align: center;
+}
+.searchdiv div{
+    margin: 0 auto;
+    width: 410px;
+}
+.searchinput{
+    display: inline;
+    float: left;
+}
+.searchinput input {
+    border: none;
+    background: url(../images/sprites_20120420.png) no-repeat 0px -680px;
+    height: 26px;
+    width: 335px;
+    line-height: 26px;
+    padding-left: 5px;
+}
+.searchbtn {
+    display: inline;
+    float: left;
+}
+.searchbtn input {
+    background: url(../images/sprites_20120420.png) no-repeat 0px -654px;
+    width: 70px;
+    height: 26px;
+    border: none;
+    cursor: pointer;
+}
+.searchWords0613 {
+    line-height: 18px;
+    height: 18px;
+    overflow: hidden;
+    width: 100%;
+}
+.searchWords0613 span {
+    color: #a10000;
+}
+.searchWords0613 a {
+    margin-right: 7px;
+    display: inline-block;
+    white-space: nowrap;
+}
+

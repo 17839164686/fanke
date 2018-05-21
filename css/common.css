@@ -1,0 +1,17 @@
+body{overflow-x:hidden;}
+html{background: #fff;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, p, th, td {
+    margin: 0;
+    padding: 0;
+}
+body,h1,h3,h4,h2,h5,h6,ul,ol,p,fieldset,dd,dl,input,textarea,option,hr,td{margin:0;padding:0;}
+a{text-decoration:none; color:#333;}
+h1,h3,h4,h2,h5,h6,b,strong{font-weight:normal;}
+i,em{font-style:normal;}
+li{list-style:none;}
+img{border:none; display:block;}
+a,input{outline:none;}
+body{font-size: 12px;font-family: "宋体";color: #333;}
+.clear:after{content:"."; display:block; clear:both;height:0; visibility:hidden;}
+.clear{zoom:1;}
+.border0{border:0;}

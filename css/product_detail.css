@@ -1,0 +1,256 @@
+.full .danpinBox{
+    width: 1200px;
+    margin: 0 auto;
+}
+.blank10{
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 10px;
+}
+.breadNav{
+    color: #000;
+    height: 22px;
+}
+.breadNav span{
+    margin: 0 8px;
+}
+.blank0 {
+    display: block;
+    width: 100%;
+    height: 0px;
+    line-height: 0px;
+    font-size: 0px;
+    clear: both;
+    overflow: hidden;
+}
+.danpinArea{
+    height: auto;
+    margin: 0 auto;
+    zoom: 1;
+}
+.danpinTitleTab{
+    height: 45px;
+    border-bottom: 1px solid #e5e6e6;
+    min-width: 980px;
+}
+ #ProductTitleShow #productTitle .brandNumArea  {
+        display: none;
+ }
+ .danpinTitleTab .brandNumArea span {
+    float: right;
+    width: 102px;
+    background: none;
+    padding: 0px;
+    margin: 0px;
+}
+.danpinTitleTab h2 {
+    margin-left: 10px;
+    float: left;
+    margin-right: 10px;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+}
+.danpinTitleTab ul.ProductSubnav {
+    height: 45px;
+}
+.fr{
+    float: right;
+}
+.danpinTitleTab ul.ProductSubnav li {
+    float: left;
+    color: #808080;
+    height: 45px;
+    margin: 0 10px 0 0;
+}
+.danpinTitleTab ul.ProductSubnav li a {
+    display: inline-block;
+    padding: 0px 15px 0px 0px;
+    height: 45px;
+    line-height: 45px;
+    font-family: 微软雅黑;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+}
+.blank30 {
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 0px;
+    font-size: 0px;
+    clear: both;
+    overflow: hidden;
+}
+.blank0 {
+    display: block;
+    width: 100%;
+    height: 0px;
+    line-height: 0px;
+    font-size: 0px;
+    clear: both;
+    overflow: hidden;
+}
+.full .danpin_colLef{
+    width: 463px;
+  
+}
+.full .danpinColCenter {
+    margin: 0 80px;
+}
+.danpinColCenter{
+    width: 402px;
+    float: left;
+    display: inline;
+}
+.small{
+    width: 400px;
+    height: 400px;
+    margin-top:7px;
+    overflow: hidden;
+    border: 1px solid #e5e6e6;
+    position: relative;
+    float: right;
+    display: inline;
+}
+.small img{
+    width: 400px;
+    height: 400px;
+}
+.small .wrap{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 999;
+}
+
+.small .grayBox{
+	display: none;
+	width: 200px;
+	height: 200px;
+	background-image: url(../images/big-image.jpg);
+	background-size:400px 400px;
+	background-position: 0 0;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+}	
+
+.big{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	left: 840px;
+	top: 300px;
+	border:1px solid #f10;
+	display: none;
+	overflow: hidden;
+}
+.big img{
+	position: absolute;
+
+}
+.full .danpinRight{
+    width: 566px;
+}
+.danpinRight{
+    float: right;
+    overflow: hidden;
+}
+.danpinRight .danpinfixedtitle {
+    display: none;
+}
+.fl{
+    float: left;
+}
+.danpinRight.danpinFixedLeftContent{
+    display: none;
+    float: left;
+}
+.danpinRight .danpinFixedRightContent {
+    float: left;
+    margin-top: -6px;
+}
+ .priceLayout
+    {
+        color: Black;
+        
+    }
+    .priceLayout1
+    {
+        position: relative;
+        top: 1px;
+        margin-right: -5px;
+        margin-left: -5px;
+        *margin-right: 0px ;
+        *margin-left: 0px ;
+    }
+    .priceLayout2
+    {
+        position: relative;
+        top: 2px;
+    }
+    
+    .tehuipricelayout
+    {
+        *position: relative; 
+        *top: 13px;
+    }
+    .tehuipricelayout1
+    {
+        *position: relative; 
+        *top: 14px;
+    }
+    .tehuipricelayout2
+    {
+        *top: -1px;
+    }
+    .cuxiaoPrice{
+        color: #A10000;
+        height: 26px;
+    }
+    .cuxiaoPrice span{
+        display: inline-block;
+        height: 26px;
+        color: #A10000;
+    }
+    .tehuiMoney{
+        float: left;
+    }
+    .blank10 {
+        clear: both;
+        display: block;
+        font-size: 0;
+        height: 10px;
+    }
+    .shoppingNews{
+        float: left;
+    }
+    .btnnowbuy {
+        background: #F7ABAF;
+        width: 166px;
+        height: 31px;
+        display: block;
+        float: left;
+        margin-right: 13px;
+        border: solid 1px rgb(183, 27, 33);
+    }
+    #nowbuy span {
+        margin-left: 60px;
+        margin-top: 9px;
+        display: block;
+        font-size: 14px;
+        color: #A50309;
+    }
+    .btnaddtocart {
+        background: url(../images/vanclsprite.png) no-repeat scroll -147px -285px;
+        width: 168px;
+        height: 33px;
+        display: block;
+        float: left;
+    }
+
+

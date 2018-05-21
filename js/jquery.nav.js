@@ -1,0 +1,11 @@
+;
+//1.开头要加分号； = 》防止别人犯二；
+//2.所有使用的变量，全部私有！；
+(function($,window,document){
+
+    //3.所有你需要的对象jquery,window,document;全部变成私有
+
+})(jQuery,window,document);
++function(){
+    
+}
