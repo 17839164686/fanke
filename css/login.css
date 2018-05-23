@@ -45,6 +45,21 @@ center{
     margin-bottom: 20px;
     margin-right: 100px;
 }
+#login{
+    display: block;
+    width: 364px;
+    height: 45px;
+    background: #A10000;
+    font-size: 18px;
+    color: #fff;
+}
+#_upwd{
+    margin-top: 10px;
+    
+}
+.advert{
+    float: left;
+}
 .tag {
     width: 400px;
     height: 35px;

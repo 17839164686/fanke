@@ -252,5 +252,85 @@
         display: block;
         float: left;
     }
+    .blank20 {
+        display: block;
+        width: 100%;
+        height: 20px;
+        line-height: 0px;
+        font-size: 0px;
+        clear: both;
+        overflow: hidden;
+    }
+.container{
+    width: 1200px;
+    height: 2800px;
+    margin: 0 auto;
+    border-top: 1px solid #e5e6e6;
+}
+.tu1 img{
+    display: block;
+    width: 1200px;
+    height: 207px;
+}
+.tu2{
+    width: 1200px;
+    height: 629px;
+}
+.tu2  img{
+   width: 100%;
+   height: 100%;
+}
+.tu3{
+    width: 1200px;
+    height: 276px;
+}
+.tu3 img{
+    width: 100%;
+    height: 100%;
+ }
+ .tu4{
+     width: 1200px;
+     height: 462px;
+ }
+ .tu4 img{
+     width: 100%;
+     height: 100%;
+ }
+ .tu5{
+    width: 1200px;
+    height: 228px;
+}
+.tu5 img{
+    width: 100%;
+    height: 100%;
+}
+.tu6{
+    width: 1200px;
+    height: 350px;
+}
+.tu6 img{
+    width: 100%;
+    height: 100%;
+}
+.tu7{
+    width: 1200px;
+    height: 153px;
+}
+.tu7 img{
+    width: 100%;
+    height: 100%;
+}
+.tu8{
+    width: 1200px;
+    height:495 px;
+}
+.tu8 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
 
 

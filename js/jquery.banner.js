@@ -28,7 +28,20 @@
 // $("div").click();
 // hdanner();
 // $("div").hdbanner();
-;+function($){
+
+
+;+function (factory) {
+	if (typeof define === 'function' && define.amd) {
+		// AMD
+		define(['jquery'], factory);
+	} else if (typeof exports === 'object') {
+		// CommonJS
+		factory(require('jquery'));
+	} else {
+		// Browser globals
+		factory(jQuery);
+	}
+}(function(){
     $.fn.hdBanner = function(banner_box,options){
         new Banner(banner_box,options,this);
 
@@ -240,4 +253,5 @@
             $(".hd-banner-container").trigger("mouseleave")
         }
     }
-}(jQuery);
+});
+

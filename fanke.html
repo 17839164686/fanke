@@ -29,19 +29,19 @@
                         </div>
                     </div>
                     <div class="headerTopLeft" style="width: 303px;height: 32px;">
-                        <ul>
-                            <li>您好，欢迎光临凡客诚品!</li>
-                            <li>
+                        <ul class="hd_login">
+                            <li class="hd_username">您好，欢迎光临凡客诚品!</li>
+                            <li class="hide">
                                 <a href="login.html" id="login">登录</a>
                             </li>
-                            <li>
+                            <li class="hide">
                                 <a href="register.html">注册</a>
                             </li>
                             <li>
                                 <a href=" " id="mymenu">我的订单</a>
                             </li>
-
-                        </ul>
+    
+                            </ul>
                     </div>
                 </div>
 
@@ -875,58 +875,26 @@
     <div class="BayWindow" style="position: fixed; right: 10px; bottom: 20px; z-index:10">
         <ul>
             <li class="downApp">
-                <a href="//m.vancl.com/html/app.html#ref=hp-hp-head-mobile-v:n" target="_blank"></a>
+                <a href="#" target="_blank"></a>
             </li>
             <li class="online">
-                <a href="//imweb.vancl.com/" target="_blank"></a>
+                <a href="#" target="_blank"></a>
             </li>
             <li class="BlackTop">
-                <a href="javascript:;" onclick="javascript:document.getElementById('headerTopArea').scrollIntoView()"></a>
+                <a href="#" ></a>
             </li>
         </ul>
     </div>
-    <script src="libs/jquery-3.3.1.js"></script>
-
-
+    
     <script src="libs/require.js"></script>
+    <script src="libs/require.config.js"></script>
     <script>
-        require(["libs/jquery.nav"], function () {
-            $(function () {
-                $("nav>ul>li").has(".subNav").nav();
-            })
-
-
+        require(['libs/require.config'],function(){
+            require(['js/fanke'],function(){
+                
+            });
         })
-
     </script>
-    <script src="libs/jquery.banner.js"></script>
-    <script>
-        //banner插件调用
-        //两个个坑，一个是要加一个class名字，hd-active,这个类名就是控制z-index=2,
-        //要在装banner的最外层盒子上加一个.hd-banner-container
-        $(function () {
-            $(".vanclFocus")
-                .hdBanner(".rslides", {
-                    navigation: {
-                        prevEl: `.prev`,
-                        nextEl: `.next`,
-                    },
-                    pagination: {
-                        el: ".rslides_tabs"
-                    },
-                    direction: "scroll",
-                    loop: true,
-
-                })
-
-        })
-
-    </script>
-
-
-
-
-
 </body>
 
 </html>

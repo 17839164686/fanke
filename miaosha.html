@@ -32,19 +32,19 @@
                             </div>
                         </div>
                         <div class="headerTopLeft" style="width: 303px;height: 32px;">
-                            <ul>
-                                <li>您好，欢迎光临凡客诚品!</li>
-                                <li>
-                                    <a href=" " id="login">登录</a>
+                            <ul class="hd_login">
+                                <li class="hd_username">您好，欢迎光临凡客诚品!</li>
+                                <li class="hide">
+                                    <a href="login.html" id="login">登录</a>
                                 </li>
-                                <li>
-                                    <a href=" ">注册</a>
+                                <li class="hide">
+                                    <a href="register.html">注册</a>
                                 </li>
                                 <li>
                                     <a href=" " id="mymenu">我的订单</a>
                                 </li>
-
-                            </ul>
+        
+                                </ul>
                         </div>
                     </div>
 
@@ -400,51 +400,11 @@
 
                 <div class="miaosha_title"></div>
                 <!-- 放秒杀时间-->
-                <ul id="wrap_time" class="clear">
-                    <!-- <li class="now hover newout">
-                        <span class="time">13:00</span>
-                        <span class="time_num">
-                            <em>正在秒杀</em>
-                            <em>距结束0时23分1秒</em>
-                        </span>
-                    </li> -->
-
+                <ul id="wrap_time" class="clear">                  
                 </ul>
-
-
             </div>
             <!-- 放图片-->
             <div id="wrap_data">
-                <!-- <div class="miaosha_product" style="display:block">
-                    <ul>
-                            <li productcode>
-                                <a href=""> 
-                                    <img src="">
-                                </a>
-                                <h3>
-                                    <a href="#"></a>
-                                </h3>
-                                <p class="Money">
-                                <a href="#">
-                                    <span class="ms_start ms_torrow"></span>
-                                </a>
-                                <span class="nowPrice">
-                                        <em class="moneyBtn">￥</em>
-                                        <em>18</em>
-                                        <em class="chongzhi">充值后9元</em>
-                                    </span>
-                                </p>
-                                <p class="buyNum">
-                                    <span class="price left">￥78</span>
-                                    <span class="numline rig"></span>
-                                    <span class="rig">
-                                        已售0%
-                                    </span>
-                                </p>
-                                </p>
-                            </li>
-                        </ul>
-                    </div> -->
             </div>
 
         </div>
@@ -561,16 +521,16 @@
           </div>
           
 
-        <script src="libs/jquery-3.3.1.js"></script>
-        <script src="libs/require.js"></script>
-        <script>
-            require(["libs/jquery.nav"], function () {
-                $(function () {
-                    $("nav>ul>li").has(".subNav").nav();
-                })
-
-
-            })
+          <script src="libs/jquery-3.3.1.js"></script>
+          <script src="libs/jquery.cookie.js"></script>
+          <script src="libs/require.config.js"></script>
+          <script src="libs/require.js"></script>
+          <script>
+              require(['libs/require.config'],function(){
+                  require(['js/miaosha'],function(){
+                      
+                  });
+              })
 
         </script>
         <script>
@@ -583,6 +543,7 @@
                     this.init();
                 };
                 miaoSha.prototype = {
+                    construtor:miaoSha,
                     init() {
                         this.loading()
                             .then(function (res) {
@@ -606,12 +567,8 @@
                     //这个是图片啥的
                     render_data() {
                         var html = `<div class="miaosha_product""><ul>`
-                        this.json.forEach(function (item, index) {
-                            if (index == "0") {
-                                var img_url = "http://p3.vanclimg.com/234/360/product/6/1/8/" + item.ProductCode + "/mid/";
-                            } else {
-                                var img_url = "http://p3.vanclimg.com/234/360/product/6/3/7/" + item.ProductCode + "/mid/";
-                            }
+                        this.json.forEach(function (item) {
+                        var img_url = "http://p3.vanclimg.com/234/360/product/6/3/7/" + item.ProductCode + "/mid/";
                             html += `
                                         <li>
                                             <a href="${item.ItemUrl}"> 
@@ -696,7 +653,7 @@
                 init: function () {
                     //$("div").on("事件名","选择器（div的子元素，做事件委托）",function(){}.bind(this));
                     //function(){}.bind(this)  <==>  $.proxy(this.data_toggle,this)
-                    this.btn_ele.on("mouseover", this.btn_ele.children("li"), $.proxy(this.data_toggle, this));
+                    this.btn_ele.on("mouseover", "li", $.proxy(this.data_toggle, this));
                     
                 },
                 //让秒杀的模块显示与隐藏

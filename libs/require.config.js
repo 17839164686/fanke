@@ -1,7 +1,9 @@
 requirejs.config({
-    baseUrl:"libs",
+    // baseUrl:"libs",
     paths:{
-        "jquery":"jquery-3.3.1",
-        "nav":"jquery.nav"
+        "jquery":"libs/jquery-3.3.1",
+        "nav":"js/jquery.nav",
+        "cookie":"libs/jquery.cookie",
+        "banner":"js/jquery.banner"
     }
 })

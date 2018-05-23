@@ -1,5 +1,5 @@
 <?php
-	 $servername = "localhost:3306";
+      $servername = "localhost:3306";
       $username = "root";
       $password = "";
       $dbname = "user_msg";
@@ -9,5 +9,5 @@
       if($conn->connect_error){
       	die("连接失败：".$conn->connect_error);
       }
-      // echo "连接成功"
+      //  echo "连接成功"
 ?>

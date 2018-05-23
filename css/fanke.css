@@ -245,6 +245,7 @@ p {
    
    
 }
+
 #shoppingCarNone{
     margin-left: 29px;
 }
@@ -829,6 +830,38 @@ p {
     display: inline-block;
     height: 42px;
     width: 42px;
+}
+.BayWindow{
+    width: 73px;
+    height: 205px;
+    border: 1px solid #b81c22;
+    border-bottom: none;
+    margin-bottom: 30px;
+}
+.BayWindow  ul li{
+    width: 73px;
+    border-bottom: 1px solid #b81c22;
+}
+.BayWindow ul li.downApp a {
+    height: 76px;
+    background: url(../images/baywindow.png) no-repeat -1px -1px;
+}
+.BayWindow ul li a {
+    display: block;
+    width: 73px;
+}
+.BayWindow ul li.online a {
+    height: 71px;
+    background: url(../images/baywindow.png) no-repeat -1px -78px;
+}
+.BayWindow ul li.BlackTop a {
+    height: 55px;
+    background: url(../images/baywindow.png) no-repeat -1px -149px;
+}
+
+/* 登录切换 */
+.headerTopLeft .hd_login .hd_username span{
+    color: #a10000;
 }
 
 
