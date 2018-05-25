@@ -7,6 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/register2.css">
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
 </head>
 
 <body id="body" class="wrapper">
@@ -14,28 +19,27 @@
         <img src="images/logo_new.jpg" alt="凡客诚品" title="凡客诚品" style="cursor:pointer">
     </div>
     <!--logo-->
-        <div class="aspNetHidden">
-            <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTI2NDk4ODUyMGRkjukFnF0HIzatMwwY3WjD37gso+o=">
-        </div>
-        <div class="aspNetHidden">
+    <div class="aspNetHidden">
+        <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTI2NDk4ODUyMGRkjukFnF0HIzatMwwY3WjD37gso+o=">
+    </div>
+    <div class="aspNetHidden">
 
-            <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="02DF65DF">
+        <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="02DF65DF">
+    </div>
+    <span class="box15"></span>
+    <div class="regist">
+        <h1>
+            注册新用户
+            <span>我已经注册，现在就
+                <a href="login.html">登录</a>
+            </span>
+        </h1>
+        <div style="width: 100%; height: 10px; overflow: hidden; clear: both;">
         </div>
-        <span class="box15"></span>
-        <div class="regist">
-            <h1>
-                注册新用户
-                <span>我已经注册，现在就
-                    <a href="login.html">登录</a>
-                </span>
-            </h1>
-            <div style="width: 100%; height: 10px; overflow: hidden; clear: both;">
-            </div>
-            <div class="content_left">
-                <!--tag-->
-                <div class="infor clearfix" style="overflow: inherit">
-
-                    <div class="email">
+        <div class="content_left">
+            <!--tag-->
+            <div class="infor clearfix" style="overflow: inherit">
+                <div class="email">
                         <ul id="v2regListInfo_bar">
                             <!--设置用户名-->
                             <li id="user" class="v2reg_bg1" style="display: list-item;">
@@ -60,6 +64,12 @@
                                         <input maxlength="20" type="password" id="pwd" placeholder="请设置密码">
                                     </div>
                             </li>
+                            <li class="email_1">
+                                <div class="v2regListInfo_rtCont" style="position: relative;">
+                                    <div id="_mpassword" class="newtxt" style="width: 410px;">
+                                        <input maxlength="20" type="text" id="emial" placeholder="请输入邮箱号">
+                                    </div>
+                            </li>
                             <!--设置密码-->
                             <li class="v2reg_bg1">
                                 <div class="v2reg_bt">
@@ -75,8 +85,8 @@
                                 </div>
                             </li>
                         </ul>
-                        </div>
-                        <!--email-->
+                
+                    </div>
                     </div>
                     <!--infor-->
                 </div>
@@ -89,55 +99,55 @@
                 <div class="clear">
                 </div>
             </div>
-    <center>
+            <center>
 
-        <div id="bottom" align="center">
-            <div id="bottoms">
-                <p class="bZp3">Copyright 2007 - 2016 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11010102000579号 出版物经营许可证新出发京批字第直110138号</p>
-                <div id="footerArea">
-                    <div class="subFooter">
-                        <a rel="nofollow" href="#" class="redLogo" target="_blank"></a>
-                        <span class="costumeOrg"></span>
-                        <a rel="nofollow" href="#" class="wsjyBzzx" target="_blank"></a>
-                        <a rel="nofollow" href="#" class="vanclMsg" target="_blank"></a>
+                <div id="bottom" align="center">
+                    <div id="bottoms">
+                        <p class="bZp3">Copyright 2007 - 2016 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11010102000579号 出版物经营许可证新出发京批字第直110138号</p>
+                        <div id="footerArea">
+                            <div class="subFooter">
+                                <a rel="nofollow" href="#" class="redLogo" target="_blank"></a>
+                                <span class="costumeOrg"></span>
+                                <a rel="nofollow" href="#" class="wsjyBzzx" target="_blank"></a>
+                                <a rel="nofollow" href="#" class="vanclMsg" target="_blank"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </center>
-    <script src="libs/jquery-3.3.1.js"></script>
-    <script>
-        $(function(){
-            $("#register").on("click", function(){
-            console.log(1234);
-            //把登陆信息交给后台验证;
-            var username = $("#usr").val();
-            var pwd = $("#pwd").val();
-            console.log(username,pwd);
-            var opt = {
-                url: "http://localhost/fanke-huahua/user.php",
-                type: "POST",
-                data: { username: username, password: pwd, type: "register" }
-            }
-            $.ajax(opt)
-                .then(function (res) {
-                     console.log(res);
-                    if (res == "2") {
-                        alert("用户名已存在");
-                        $(".error_tip").html(`用户名已存在`);
-                        $(".error_tip").show();
-                        $("#usr").val("");
-                        $("#pwd").val("");
-                    } else if (res == "1") {
-                        window.location.href = "http://localhost/fanke-huahua/login.html";
-                    }
-                })
-        })
+            </center>
+            <script src="libs/jquery-3.3.1.js"></script>
+            <script>
+                $(function () {
+                    $("#register").on("click", function () {
+                        console.log(1234);
+                        //把登陆信息交给后台验证;
+                        var username = $("#usr").val();
+                        var pwd = $("#pwd").val();
+                        console.log(username, pwd);
+                        var opt = {
+                            url: "http://localhost/fanke-huahua/user.php",
+                            type: "POST",
+                            data: { username: username, password: pwd, type: "register" }
+                        }
+                        $.ajax(opt)
+                            .then(function (res) {
+                                console.log(res);
+                                if (res == "2") {
+                                    alert("用户名已存在");
+                                    $(".error_tip").html(`用户名已存在`);
+                                    $(".error_tip").show();
+                                    $("#usr").val("");
+                                    $("#pwd").val("");
+                                } else if (res == "1") {
+                                    window.location.href = "http://localhost/fanke-huahua/login.html";
+                                }
+                            })
+                    })
 
 
-        });
-        
-    </script>
+                });
+
+            </script>
 
 </body>
 
