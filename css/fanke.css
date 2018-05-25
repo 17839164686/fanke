@@ -513,7 +513,7 @@ span#seckill_2017_timecounting {
     color: #a10000;
     margin-left: 20px;
     float: right;
-    padding-right: 30px;
+    padding-right: -38px;
 }
 
 .new_miaosha_title {
@@ -524,7 +524,7 @@ span#seckill_2017_timecounting em.wordBox {
     padding-right: 25px;
 }
 span#seckill_2017_timecounting em {
-    padding-left: 42px;
+    padding-left: 36px;
 }
 em, strong, th {
     font-style: normal;
